@@ -105,8 +105,9 @@ img {
 }
 
 .quote {
-    padding: 100px 450px;
+    padding: 100px 550px;
     background: #E5E7EB;
+    padding-bottom: 80px;
 }
 
 .quote-text {
@@ -121,4 +122,36 @@ img {
     color: #1F2937;
     text-align: end;
     font-size: 20px;
+}
+
+.sign-up-2 {
+    color: #F9FAF8;
+    padding: 5px 20px;
+    display: flex;
+    margin-left: auto;
+    background-color: #3882f6;
+    border: 3px solid #F9FAF8;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action {
+    display: flex;
+    margin: 100px 250px;
+    padding: 50px 50px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.action-title {
+    font-size: 20px;
+    font-weight: bold;
 }
