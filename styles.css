@@ -8,12 +8,12 @@ body {
 
 .header, .hero {
     background-color: #1F2937;
-    padding: 30px 200px;
 }
 
 .header {
     display: flex;
     height: 32px;
+    padding: 20px 450px;
 }
 
 nav {
@@ -31,4 +31,45 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    padding: 10px 450px;
+    padding-bottom: 70px;
+}
+
+img {
+    height: 200px;
+    display: flex;
+    flex-shrink: 2;
+    padding: 20px 50px;
+    padding-top: 0;
+    margin-left: auto;
+    padding-right: 0;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.main-subtext {
+    font-size: 15px;
+    color: #E5E7EB;
+    width: 400px;
+}
+
+.hero-text {
+    width: 500px;
+    height: 200px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
 }
