@@ -14,6 +14,7 @@ body {
     display: flex;
     height: 32px;
     padding: 20px 350px;
+    padding-top: 30px;
 }
 
 nav {
@@ -37,6 +38,7 @@ a {
     display: flex;
     padding: 10px 450px;
     padding-bottom: 70px;
+    padding-top: 40px;
 }
 
 img {
