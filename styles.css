@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 
@@ -154,4 +154,14 @@ img {
 .action-title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    height: 32px;
+    padding: 20px 350px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
